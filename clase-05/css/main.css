@@ -1,0 +1,21 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*propiedades del contenedor*/
+
+.contendor{
+    margin: 10px;
+    background-color: blueviolet;
+    /*flex, se trabaja desde el cotenedor trabaj*/
+}
+
+
+/*propiedades de los items*/
+
+.items

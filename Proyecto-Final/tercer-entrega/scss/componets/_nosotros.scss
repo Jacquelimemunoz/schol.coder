@@ -1,0 +1,15 @@
+.nosotros{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px; 
+    padding: 20px;
+    background-color:#efcfe3; 
+    color: palevioletred; 
+    text-align: left; 
+
+    h1{
+        font-size: 80px;
+    }
+
+}

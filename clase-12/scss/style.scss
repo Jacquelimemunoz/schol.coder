@@ -1,0 +1,22 @@
+// cometario en sass
+/* cometario en sass y css */
+
+
+// nesting 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    nav{
+        background-color: black;
+        margin: 1rem;
+        padding: 1rem;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center ;
+        }
+    }
+}
+
+1:15{

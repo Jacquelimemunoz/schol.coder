@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #c69fec;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e4b8c; 
+    padding: 10px 20px;
+    height: 170px
+}
+
+.logo img {
+    height: 100%; 
+    width: 100%;
+    margin-top: -10px; 
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger .line {
+    height: 3px;
+    width: 25px;
+    background-color: white; 
+    margin: 4px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 55px;
+    margin-bottom: 40px;
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr; 
+    gap: 20px; 
+    padding: 20px;
+    background-color:#f2bf7d; 
+    color: white; 
+    text-align: left; 
+}
+
+footer img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.segundo-parrafo, .tercer-parrafo {
+    margin-top: 20px; 
+    
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+h2 { 
+    font-size: 80px; 
+    margin: 20px;
+    
+}
+
+p{
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+.toptik-i{
+    margin-bottom: none;
+}
+
+.color-1{
+    margin-bottom: none;  
+}
+.tips-lista{
+    font-size: 30px;
+    margin: 20px;
+
+    li{
+     margin-bottom: 50px;
+    }
+}
+
+.icons {
+    display: flex; 
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+
+.icons img {
+    width: 30px; 
+    height: auto; 
+}
+
+.boton, .boton2{
+    background-color: #bb965f;
+    padding: 10px 50px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+img {
+    max-width: 50%; 
+    height: auto;
+    margin: 40px;
+}
+
+.video{
+   margin: 30px;
+}
+
+.imagen-tips{
+    width: 300%;
+}
+
+@media (max-width: 768px) {
+    .boton, .boton2 {
+        width: 100%; 
+        box-sizing: border-box; 
+            margin-left: 0px;
+            margin-bottom: 50px;
+            padding: 20px 5px;
+        }
+    
+
+    img{
+        height: auto;
+        max-width:100%;
+        margin: 0;
+    }
+    h2{
+        font-size:250%;  
+    }
+
+    p{
+        font-size: 120%;
+    }
+    
+    .titulo{
+        font-size: 200%;
+    }
+
+    .parrafo{
+        font-size: none;
+    }
+
+    iframe {
+        width: 100%; 
+    }
+
+    section {
+        padding: 15px; 
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .icons img {
+        width: 50px; 
+        margin: 5px; 
+    }
+
+    .video{
+        margin: 0px;
+    }
+
+    .burger {
+        display: flex;
+        align-items: center; 
+        margin-top: 5px; 
+        margin-left: auto; 
+        cursor: pointer; 
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #5e4b8c;
+        top: 40px; 
+        right: 0;
+        width: 100%;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    .logo img {
+        height: 10%;
+        width: 40%;
+        margin-top: 20px; 
+    }
+    
+}
+
+@media (max-width: 800px){
+    .boton, .boton2 {
+        width: 100%; 
+        box-sizing: border-box; 
+        margin-left: 0px;
+        margin-bottom: 50px;
+        padding: 20px 5px;
+    }
+
+    img{
+        height: auto;
+        max-width:100%;
+        margin: 0;
+    }
+    h2{
+        font-size:300%;  
+    }
+
+    p{
+        font-size: 190%;
+    }
+    
+    .titulo{
+        font-size: 200%;
+    }
+
+    .parrafo{
+        font-size: none;
+    }
+
+    iframe {
+        width: 100%; 
+    }
+
+    section {
+        padding: 15px; 
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .icons img {
+        width: 50px; 
+        margin: 5px; 
+    }
+
+    .video{
+        margin: 0px;
+    }
+
+    .burger {
+        display: flex;
+        align-items: center; 
+        margin-top: 5px; 
+        margin-left: auto; 
+        cursor: pointer; 
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #5e4b8c; 
+        top: 40px; 
+        right: 0;
+        width: 100%;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    .logo img {
+        height: 10%;
+        width: 40%;
+        margin-top: 20px; 
+    }
+}
+

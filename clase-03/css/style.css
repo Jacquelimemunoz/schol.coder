@@ -1,0 +1,64 @@
+/* linea de comentario */
+
+
+h3{
+    color: pink;
+    text-align: center;
+}
+    
+/* tipos de selectores */
+
+/* selector etiqueta */
+
+
+/* CLASS */
+
+.verde{
+    color: green;
+}
+
+
+/* ID */
+
+#marron{
+    color: brown !important;
+}
+
+
+
+/* estilos de html ejemplos */
+
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* estilos de main */
+
+main{
+    text-align: center;
+}
+
+/* estilos de footer */
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer p{
+    font: size 20px; 
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

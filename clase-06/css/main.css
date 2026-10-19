@@ -1,0 +1,104 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* estilos de contenedor */
+
+.contenedor{
+    height: 500px;
+    background-color: tomato;
+    /* para grid */
+    display: grid;
+
+    /* columnas */
+    grid-template-columns: repeat(2, 1fr);
+
+    /* rows */
+    grid-template-rows: 50% 50%;
+
+    /* gap */
+    row-gap: 10px;
+}
+
+
+/* estilos de items  */
+.items{
+    background-color: beige;
+    border: 1px solid black;
+}
+
+
+/* estilos de ejemplo chu */
+
+.ejemplo{
+    height: 600px;
+    background-color: tomato;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    /* alienacion de elementos */
+    justify-items: center;
+    align-items: center;
+}
+
+.ejemplo div{
+    border: 1px solid black;
+}
+
+.ejemplo .item-cuatro{
+    align-self: end;
+    justify-self: right;
+}
+
+
+/* estilos ejemplo tres */
+
+/* estilos de contendor */
+
+.falso-body{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 100px 150px 150px 100px;
+    gap: 5px;
+
+    /* grid areas */
+
+    grid-template-areas: 
+        "header header header header"
+        "main main main aside"
+        "section section section aside"
+        "footer footer footer footer";
+}
+
+/* estilos de los items */
+
+header{
+    background-color: tomato;
+    grid-area: header;
+}
+
+main{
+    background-color: rgb(248, 77, 47);
+    grid-area: main;
+}
+
+section{
+    background-color: rgb(239, 55, 23);
+    grid-area: section;
+}
+
+aside{
+    background-color: rgb(160, 33, 11);
+    grid-area: aside;
+}
+
+footer{
+    background-color: rgb(168, 32, 7);
+    grid-area: footer;
+}
